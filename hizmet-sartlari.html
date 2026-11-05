@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hizmet Şartları | Avcore Tech</title>
+<title>Terms of Service | Avcore Tech</title>
 <style>
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     margin: 0;
     padding: 20px;
 }
@@ -22,10 +21,12 @@ body {
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-    max-width: 800px; /* Metin okunabilirliği için biraz daha geniş */
+    max-width: 800px;
     width: 100%;
     border: 1px solid #334155;
-    text-align: left; /* Metinler sola hizalı */
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 h1 {
     margin: 0 0 20px 0;
@@ -36,8 +37,10 @@ h1 {
 h2 {
     color: #e2e8f0;
     font-size: 1.2rem;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 10px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 5px;
 }
 p {
     color: #94a3b8;
@@ -59,39 +62,91 @@ p {
 .badge:hover {
     opacity: 0.8;
 }
+.lang-selector {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.lang-selector a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.lang-selector a:hover {
+    text-decoration: underline;
+}
 .footer {
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 0.85rem;
     color: #64748b;
     text-align: center;
 }
+.section-tr {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 2px dashed #334155;
+}
 </style>
 </head>
 <body>
+
 <div class="card">
-    <a href="index.html" class="badge">← Ana Sayfaya Dön</a>
+    <a href="index.html" class="badge">← Back to Home / Ana Sayfaya Dön</a>
     
-    <h1>Hizmet Şartları</h1>
-    <p>Son güncellenme tarihi: 5 Kasım 2026</p>
+    <div class="lang-selector">
+        <a href="#english">🇬🇧 English</a> | <a href="#turkish">🇹🇷 Türkçe</a>
+    </div>
 
-    <h2>1. Kabul Edilme</h2>
-    <p>Avcore Tech tarafından geliştirilen "LEGACY: Life Simulator" ve diğer uygulamalarımızı kullanarak bu hizmet şartlarını kabul etmiş sayılırsınız. Eğer bu şartları kabul etmiyorsanız, lütfen uygulamalarımızı kullanmayın.</p>
+    <!-- ENGLISH SECTION -->
+    <div id="english">
+        <h1>Terms of Service</h1>
+        <p><em>Last updated: November 5, 2026</em></p>
 
-    <h2>2. Kullanım Lisansı</h2>
-    <p>Uygulamalarımız kişisel, ticari olmayan kullanımınız için size lisanslanmıştır. Uygulama kodlarını kopyalayamaz, değiştiremez, dağıtamaz veya tersine mühendislik (reverse engineering) yapamazsınız.</p>
+        <p>These Terms of Service apply specifically to the mobile application <strong>LEGACY: Life Simulator</strong> and other services provided by Avcore Tech.</p>
 
-    <h2>3. Kullanıcı Verileri ve Gizlilik</h2>
-    <p>Uygulamalarımızı kullanımınız sırasında toplanan veriler, kullanıcı deneyimini iyileştirmek amacıyla işlenir. Hassas verileriniz üçüncü şahıslarla izinsiz paylaşılmaz. Daha fazla detay için Gizlilik Politikamızı inceleyebilirsiniz.</p>
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or using "LEGACY: Life Simulator", you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our application.</p>
 
-    <h2>4. Uygulama İçi Satın Alımlar</h2>
-    <p>Oyunlarımız, gerçek para ile satın alınabilen sanal ürünler veya özellikler içerebilir. Bu satın alımlar, Google Play Store politikalarına tabidir ve iade süreçleri bu platformlar üzerinden yönetilir.</p>
+        <h2>2. User License</h2>
+        <p>Avcore Tech grants you a personal, non-exclusive, non-transferable, and revocable license to use the application for personal, non-commercial purposes. You may not copy, modify, distribute, sell, or reverse engineer any part of our application.</p>
 
-    <h2>5. Değişiklikler</h2>
-    <p>Avcore Tech, bu hizmet şartlarını önceden haber vermeksizin dilediği zaman değiştirme hakkını saklı tutar. Değişiklikler bu sayfada yayınlandığı andan itibaren geçerlidir.</p>
+        <h2>3. User Data and Privacy</h2>
+        <p>We may collect certain data to improve user experience and app functionality. Your data is handled in accordance with our Privacy Policy. We do not sell your personal data to third parties.</p>
+
+        <h2>4. In-App Purchases</h2>
+        <p>"LEGACY: Life Simulator" may offer virtual goods or features for purchase using real money. These transactions are processed by the platform provider (e.g., Google Play Store) and are subject to their respective terms and refund policies.</p>
+
+        <h2>5. Modifications to the Service</h2>
+        <p>Avcore Tech reserves the right to modify, suspend, or discontinue the application (or any part of it) at any time without prior notice.</p>
+    </div>
+
+    <!-- TURKISH SECTION -->
+    <div id="turkish" class="section-tr">
+        <h1>Hizmet Şartları</h1>
+        <p><em>Son güncellenme tarihi: 5 Kasım 2026</em></p>
+
+        <p>Bu Hizmet Şartları, özellikle Avcore Tech tarafından sağlanan <strong>LEGACY: Life Simulator</strong> mobil uygulaması ve diğer hizmetlerimiz için geçerlidir.</p>
+
+        <h2>1. Şartların Kabulü</h2>
+        <p>"LEGACY: Life Simulator" uygulamasını indirerek, yükleyerek veya kullanarak bu Hizmet Şartlarını kabul etmiş sayılırsınız. Bu şartları kabul etmiyorsanız, lütfen uygulamamızı kullanmayın.</p>
+
+        <h2>2. Kullanım Lisansı</h2>
+        <p>Avcore Tech, uygulamayı kişisel ve ticari olmayan amaçlarla kullanmanız için size kişisel, münhasır olmayan, devredilemez ve geri alınabilir bir lisans verir. Uygulamamızın hiçbir bölümünü kopyalayamaz, değiştiremez, dağıtamaz, satamaz veya tersine mühendislik yapamazsınız.</p>
+
+        <h2>3. Kullanıcı Verileri ve Gizlilik</h2>
+        <p>Kullanıcı deneyimini ve uygulama işlevselliğini geliştirmek için belirli verileri toplayabiliriz. Verileriniz Gizlilik Politikamıza uygun olarak işlenir. Kişisel verilerinizi üçüncü şahıslara satmıyoruz.</p>
+
+        <h2>4. Uygulama İçi Satın Alımlar</h2>
+        <p>"LEGACY: Life Simulator", gerçek para kullanılarak satın alınabilecek sanal ürünler veya özellikler sunabilir. Bu işlemler platform sağlayıcısı (örn. Google Play Store) tarafından gerçekleştirilir ve onların kendi şartlarına ve iade politikalarına tabidir.</p>
+
+        <h2>5. Hizmette Yapılacak Değişiklikler</h2>
+        <p>Avcore Tech, önceden haber vermeksizin uygulamayı (veya herhangi bir bölümünü) dilediği zaman değiştirme, askıya alma veya sonlandırma hakkını saklı tutar.</p>
+    </div>
 
     <div class="footer">
         &copy; 2026 Avcore Tech. All rights reserved.
     </div>
 </div>
+
 </body>
 </html>
